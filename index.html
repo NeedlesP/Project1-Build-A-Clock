@@ -2,10 +2,10 @@
 
 <head>
     <title> Clock! </title>
-    
-    <script src="js/theme.js"> </script>
 
-<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script src="js/theme.js"> </script>
 
     <meta charset="utf-8">
 
@@ -15,19 +15,10 @@
 
 </head>
 
-<body>
-<div id="BigBox">
+<body id="body" name='dark_light'>
     <div id="MyClockDisplay" class="clock" onload="showTime()">
-    
         <script src="js/clock.js">  </script> 
-
     </div>
-</div>
-    <div class="theme-switch-wrapper">
-        <label class="theme-switch" for="checkbox">
-            <input type="checkbox" id="checkbox"/>
-            <div class="slider round"></div>
-        </label>
-        <em>Enable Dark Mode</em>
-
+    <button type="button" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">
+        <em>Toggle Dark Mode</em>
 </body>

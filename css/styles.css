@@ -1,10 +1,10 @@
-html{
+body.light-mode{
     --primary-color:#302AE6;
     --font-color:#424242;
     --bg-color:#fff;
 }
 
-[data-theme='dark'] {
+body.dark-mode {
       --primary-color: #9A97F3;
       --font-color: #e1e1ff;
       --bg-color: #161625;
@@ -17,74 +17,23 @@ body{
     max-width: 90%;
 
 }
-
-.BigBox{
-    height: 400px;
-    width: 400px;
-    background-color: #000000;
+button{
+  display: flex;
+  justify-content: center;
+  align-content: center ;
 }
-.theme-switch-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    em {
-      margin-left: 10px;
+em {
+      display: flex;
+      justify-content: center;
+      align-content: center;
       font-size: 16px;
-    }
-  .theme-switch {
-    display: flex;
-    height: 34px;
-    position: relative;
-    width: 60px;
-  }
-  
-  .theme-switch input {
-    display:none;
-  }
-  
-  .slider {
-    background-color: #ccc;
-    bottom: 0;
-    cursor: pointer;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: .5s;
-  }
-  
-  .slider:before {
-    background-color: #fff;
-    bottom: 4px;
-    content: "";
-    height: 26px;
-    left: 4px;
-    position: absolute;
-    transition: .5s;
-    width: 26px;
-  }
-  
-  input:checked + .slider {
-    background-color: #3d0442;
-  }
-  
-  input:checked + .slider:before {
-    transform: translateX(26px);
-  }
-  
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
-  .clock {
+}
+
+.clock {
     display: flex;
     justify-content: center;
     align-content: center;
-    color: var(--primary-color);
+    color: var(--font-color);
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 7px;
