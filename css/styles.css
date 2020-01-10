@@ -51,7 +51,7 @@ body{
     position: absolute;
     right: 0;
     top: 0;
-    transition: .6s;
+    transition: .5s;
   }
   
   .slider:before {
@@ -61,7 +61,7 @@ body{
     height: 26px;
     left: 4px;
     position: absolute;
-    transition: .6s;
+    transition: .5s;
     width: 26px;
   }
   
