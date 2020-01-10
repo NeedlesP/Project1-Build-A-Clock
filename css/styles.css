@@ -9,7 +9,15 @@ body.dark-mode {
       --font-color: #e1e1ff;
       --bg-color: #161625;
   }
-
+#buttonWrapper{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#flexcolumn{
+display: flex;
+flex-direction: column;
+}
 body{
     font-family:  Helvetica, Arial, sans-serif;
     background-color: var(--bg-color);
@@ -33,7 +41,6 @@ em {
     display: flex;
     justify-content: center;
     align-content: center;
-    color: var(--font-color);
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 7px;
