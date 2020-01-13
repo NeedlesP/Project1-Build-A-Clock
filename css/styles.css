@@ -1,12 +1,13 @@
 body.light-mode{
-    --primary-color:#302AE6;
-    --font-color:#424242;
+    --primary-color:rgb(103, 100, 211);
+    --font-color:#ffffff;
     --bg-color:#fff;
 }
 
 body.dark-mode {
       --primary-color: #9A97F3;
-      --font-color: #e1e1ff;
+      --font-color:#161625;
+      /*--font-color: #e1e1ff;*/
       --bg-color: #161625;
   }
 #buttonWrapper{
@@ -14,34 +15,46 @@ body.dark-mode {
   justify-content: center;
   align-content: center;
 }
-#flexcolumn{
-display: flex;
-flex-direction: column;
-}
 body{
     font-family:  Helvetica, Arial, sans-serif;
     background-color: var(--bg-color);
     color: var(--font-color);
     max-width: 90%;
-
 }
-button{
+#box{
   display: flex;
   justify-content: center;
+  align-content: center;
+  height: 800px;
+  width: 1250px;
+  flex-direction: column;
+}
+button{
+  border-radius: 25px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  background-color: var(--primary-color);
+  justify-content: center;
   align-content: center ;
+  height: 100px;
+  width: 300px;
 }
 em {
       display: flex;
       justify-content: center;
       align-content: center;
-      font-size: 16px;
+      font-family: Helvetica, Arial, sans-serif;
+      color: var(--font-color) ;
+      font-size: 36px;
 }
 
 .clock {
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: 60px;
+    font-size: 144px;
+    text-shadow: 2px 2px 4px #121212;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--primary-color);
     letter-spacing: 7px;
   }
