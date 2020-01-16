@@ -15,17 +15,22 @@ body.dark-mode {
   align-content: center;
 }
 #flexcolumn{
+height: 100%;
+width: 100%;
 display: flex;
+justify-content: center;
+align-content: center;
 flex-direction: column;
 }
 body{
     font-family:  Helvetica, Arial, sans-serif;
     background-color: var(--bg-color);
     color: var(--font-color);
-    max-width: 90%;
-
+    margin: 400px auto;
 }
 button{
+  height:2vw;
+  widows: 2vw;
   display: flex;
   justify-content: center;
   align-content: center ;
@@ -41,7 +46,8 @@ em {
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: 60px;
+    font-size: 5vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 7px;
+    height: 100%;
   }
