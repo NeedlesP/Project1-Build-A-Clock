@@ -6,8 +6,7 @@ body.light-mode{
 
 body.dark-mode {
       --primary-color: #9A97F3;
-      --font-color:#161625;
-      /*--font-color: #e1e1ff;*/
+      --font-color: #e1e1ff;
       --bg-color: #161625;
   }
 #buttonWrapper{
@@ -31,13 +30,14 @@ body{
 }
 button{
   height:2vw;
-  widows: 2vw;
+  width: 2vw;
   display: flex;
   background-color: var(--primary-color);
   justify-content: center;
   align-content: center ;
   height: 100px;
   width: 300px;
+  border-radius: 20px;
 }
 em {
       display: flex;
@@ -57,4 +57,5 @@ em {
     color: var(--primary-color);
     letter-spacing: 7px;
     height: 100%;
+    text-shadow: 2px 2px 4px #000000;
   }
